@@ -66,7 +66,7 @@ public class NewJFrame extends javax.swing.JFrame {
         jLabelResult.setFont(new java.awt.Font("Times New Roman", 3, 20)); // NOI18N
         jLabelResult.setText("Ответ: y = ");
         getContentPane().add(jLabelResult);
-        jLabelResult.setBounds(300, 370, 210, 24);
+        jLabelResult.setBounds(380, 320, 210, 24);
 
         jTextFieldA.setFont(new java.awt.Font("Times New Roman", 0, 20)); // NOI18N
         jTextFieldA.addActionListener(new java.awt.event.ActionListener() {
@@ -94,7 +94,7 @@ public class NewJFrame extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jButtonClear);
-        jButtonClear.setBounds(400, 310, 160, 50);
+        jButtonClear.setBounds(220, 340, 150, 40);
 
         jButtonSolve.setFont(new java.awt.Font("Times New Roman", 0, 20)); // NOI18N
         jButtonSolve.setText("Решить");
@@ -104,7 +104,7 @@ public class NewJFrame extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jButtonSolve);
-        jButtonSolve.setBounds(220, 310, 160, 50);
+        jButtonSolve.setBounds(220, 290, 150, 40);
 
         jLabel1.setFont(new java.awt.Font("Times New Roman", 1, 36)); // NOI18N
         jLabel1.setText("Вариант 5");
